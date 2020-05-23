@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Bemax</title>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+
+        <!--        header start-->
+        <nav class="navbar navbar-light navbar-expand-lg p-4">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" class="img-fluid" alt="Logo">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarnav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarnav">
+                    <ul class="navbar-nav ml-auto align-items-end">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    </ul>
+                    <div>
+                        <div class="input-group">
+                            <input type="text" id="search" class="form-control-sm" placeholder="Search">
+                            <button type="button" onclick="search(document.getElementById('search').value)" class="cus-btn">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--        header end-->
+        <!--        home start-->
+        <section id="home" class="">
+            <div class="carousel slide" data-ride="carousel" id="mycarousel">
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#mycarousel"></li>
+                    <li data-slide-to="1" data-target="#mycarousel"></li>
+                    <li data-slide-to="2" data-target="#mycarousel"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" role="listbox">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h2>work hard</h2>
+                                <h1>dream big</h1>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" role="listbox">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h2>work hard</h2>
+                                <h1>dream big</h1>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" role="listbox">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h2>work hard</h2>
+                                <h1>dream big</h1>
+                                <a href="#" class="btn btn-primary">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#mycarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                    <div class="prev-box">
+                        <i class="fa fa-angle-left fa-3x"></i>
+                    </div>
+                </a>
+                <a href="#mycarousel" class="carousel-control-next" role="button" data-slide="next">
+                    <div class="next-box">
+                        <i class="fa fa-angle-right fa-3x"></i>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!--        home end-->
+        <!--        hire start-->
+        <section id="hire" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-12 text-center text-lg-left">
+                        <h2>We’ve completed more than <span>100+</span> project for our amazing clients, If you interested?</h2>
+                    </div>
+                    <div class="col-lg-4 col-12 text-center text-lg-right align-self-center mt-lg-0 mt-4">
+                        <a href="#" class="btn">Hire Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        hire end-->
+        <!--        success start-->
+        <section id="success" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="img/item-img1.jpg" class="img-fluid w-100" alt="Success">
+                            <div class="suc-overlay text-left">
+                                <div class="heading-suc px-4">
+                                    <i class="fas fa-chart-bar"></i>
+                                    <h3 class="d-inline">Top Investment Advisors</h3>
+                                </div>
+                                <p class="px-4">Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>
+                                <a href="#" class="px-4">
+                                    <i class="fa fa-plus-square mr-1"></i> Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-md-0">
+                        <div class="card">
+                            <img src="img/item-img1.jpg" class="img-fluid w-100" alt="Success">
+                            <div class="suc-overlay text-left">
+                                <div class="heading-suc px-4">
+                                    <i class="fas fa-cogs"></i>
+                                    <h3 class="d-inline">Business Performance</h3>
+                                </div>
+                                <p class="px-4">Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>
+                                <a href="#" class="px-4">
+                                    <i class="fa fa-plus-square mr-1"></i> Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-md-0">
+                        <div class="card">
+                            <img src="img/item-img1.jpg" class="img-fluid w-100" alt="Success">
+                            <div class="suc-overlay text-left">
+                                <div class="heading-suc px-4">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h3 class="d-inline">Growth Hacking</h3>
+                                </div>
+                                <p class="px-4">Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>
+                                <a href="#" class="px-4">
+                                    <i class="fa fa-plus-square mr-1"></i> Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        success end-->
+        <!--        bemax start-->
+        <section id="bemax" class="">
+            <div class="container">
+                <div class="row text-center pb-5">
+                    <div class="col-12">
+                        <h3>WE ARE BEMAX</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="d-flex flex-row">
+                            <div class="icon-box">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <div class="px-3">
+                                <h6>Responsive Design</h6>
+                                <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                        <div class="d-flex flex-row">
+                            <div class="icon-box">
+                                <i class="far fa-gem"></i>
+                            </div>
+                            <div class="px-3">
+                                <h6>Very Easy Customize</h6>
+                                <p>Etiam mollis dui diam, eget accumsan neque consectetur quis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-md-4 mt-3">
+                        <div class="d-flex flex-row">
+                            <div class="icon-box">
+                                <i class="fa fa-bullhorn"></i>
+                            </div>
+                            <div class="px-3">
+                                <h6>Free Font Icons</h6>
+                                <p>Etiam mollis dui diam, eget accumsan neque consectetur quis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-5 mt-md-4 mt-3">
+                        <div class="d-flex flex-row">
+                            <div class="icon-box">
+                                <i class="fa fa-mobile-alt"></i>
+                            </div>
+                            <div class="px-3">
+                                <h6>Mobile Ready</h6>
+                                <p>Donec at consequat tortor. Etiam ut ipsum sit amet diam pulvinar efficitur quis vitae</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-5 mt-md-4 mt-3">
+                        <div class="d-flex flex-row">
+                            <div class="icon-box">
+                                <i class="fa fa-pencil-alt"></i>
+                            </div>
+                            <div class="px-3">
+                                <h6>Modern Style</h6>
+                                <p>Suspendisse eu congue mauris. Class aptent taciti sociosqu ad litora torquent</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-5 mt-md-4 mt-3">
+                        <div class="d-flex flex-row">
+                            <div class="icon-box">
+                                <i class="fa fa-comments"></i>
+                            </div>
+                            <div class="px-3">
+                                <h6>Awesome Support</h6>
+                                <p>Curabitur laoreet auctor sem, sodales fermentum purus rutrum in</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <!--        bemax end-->
+        <!--        project start-->
+        <section id="project" class="">
+            <div class="container">
+                <div class="row text-center pb-4">
+                    <div class="col-12">
+                        <h3 class="text-light">LATEST PROJECTS</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="container text-center my-3">
+                    <div class="row mx-auto my-auto">
+                        <div id="projectcarousel" class="carousel carousel1 slide w-100" data-ride="carousel">
+                            <div class="carousel-inner w-100" role="listbox">
+                                <div class="carousel-item carousel-item1 active">
+                                    <div class="col-md-3">
+                                        <img src="img/news-img1.jpg" class="" alt="Project Image">
+                                        <div class="project-overlay">
+                                            <h4>Bussiness Growth Solutions</h4>
+                                            <h5>Finance, Marketing</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item1">
+                                    <div class="col-md-3">
+                                        <img src="img/news-img1.jpg" alt="Project Image">
+                                        <div class="project-overlay">
+                                            <h4>Bussiness Growth Solutions</h4>
+                                            <h5>Finance, Marketing</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item1">
+                                    <div class="col-md-3">
+                                        <img src="img/news-img1.jpg" alt="Project Image">
+                                        <div class="project-overlay">
+                                            <h4>Bussiness Growth Solutions</h4>
+                                            <h5>Finance, Marketing</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item1">
+                                    <div class="col-md-3">
+                                        <img src="img/news-img1.jpg" alt="Project Image">
+                                        <div class="project-overlay">
+                                            <h4>Bussiness Growth Solutions</h4>
+                                            <h5>Finance, Marketing</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item1">
+                                    <div class="col-md-3">
+                                        <img src="img/news-img1.jpg" alt="Project Image">
+                                        <div class="project-overlay">
+                                            <h4>Bussiness Growth Solutions</h4>
+                                            <h5>Finance, Marketing</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item1">
+                                    <div class="col-md-3">
+                                        <img src="img/news-img1.jpg" alt="Project Image">
+                                        <div class="project-overlay">
+                                            <h4>Bussiness Growth Solutions</h4>
+                                            <h5>Finance, Marketing</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev w-auto" href="#projectcarousel" role="button" data-slide="prev">
+                                <div class="pro-prev-box">
+                                    <i class="fa fa-angle-left"></i>
+                                </div>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next w-auto" href="#projectcarousel" role="button" data-slide="next">
+                                <div class="pro-next-box">
+                                    <i class="fa fa-angle-right"></i>
+                                </div>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        project end-->
+
+        <!--        choose start-->
+        <section id="choose" class="">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h3>LATEST PROJECTS</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row pt-4 pt-md-5">
+                    <div class="col-md-6">
+                        <video id="video" autobuffer>
+                            <source src="video/movie.mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6 pt-4 pt-md-0">
+                        <div class="content">
+                            <div class="choose-text">
+                                <i class="fas fa-cogs"></i>
+                                <h2 class="d-inline-block">Awesome Design</h2>
+                            </div>
+                            <p>Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar malesuada. Suspendisse eu rhoncus ligula. </p>
+                            <div class="choose-text">
+                                <i class="far fa-gem"></i>
+                                <h2 class="d-inline-block">Flexible </h2>
+                            </div>
+                            <p>Nam orci metus, varius at nisl at, tempor facilisis magna. Ut maximus felis et tincidunt lacinia. Nulla malesuada ipsum at magna condimentum pharetra. </p>
+                            <div class="choose-text">
+                                <i class="fas fa-cogs"></i>
+                                <h2 class="d-inline-block">Easy to Use</h2>
+                            </div>
+                            <p>Fusce viverra risus diam, in luctus nulla porta vel. Etiam nunc lorem, dapibus id augue vitae, lacinia pharetra eros. Fusce ac egestas purus, non porta est. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        choose end-->
+
+        <!--        work start-->
+        <section id="work" class="">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-6">
+                        <h3>WORKING WITH US</h3>
+                        <hr>
+                        <p>We’ve completed more than 100+ project for our am azing clients, If you interested?</p>
+                        <a href="#" class="btn">Hire Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        work end-->
+
+        <!--        blog start-->
+        <section id="blog" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class=".col-12">
+                                <div class="blog-head">
+                                    <h3 class="d-inline mr-3">LATEST BLOG POSTS</h3>
+                                    <button type="button" class="btn" id="myBtn">
+                                        <i class="fa fa-chevron-left"></i>
+                                    </button>
+                                    <button type="button" class="btn" id="myBtn2">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row mx-auto my-auto">
+                            <div class="carousel slide" data-ride="carousel" id="blogcarousel">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-xl-5 col-md-6">
+                                                <div class="blog-img">
+                                                    <img src="img/blog-img.jpg" class="img-fluid" alt="Blog Image">
+                                                    <div class="blog-overlay">
+                                                        <p>OCTOBER 25,2017</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-7 col-md-6 mt-4 mt-md-0">
+                                                <div class="blog-content">
+                                                    <h4>10 Tips for a Business Strong Start </h4>
+                                                    <p>Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
+                                                    <h5 class="d-xl-inline-block d-lg-block d-inline-block mr-4">
+                                                        <i class="fa fa-tags"></i> Development, Marketing
+                                                    </h5>
+                                                    <a href="#" class="">
+                                                        <i class="fa fa-plus-square mr-1"></i> Read more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-xl-5 col-md-6">
+                                                <div class="blog-img">
+                                                    <img src="img/blog-img.jpg" class="img-fluid" alt="Blog Image">
+                                                    <div class="blog-overlay">
+                                                        <p>OCTOBER 25,2017</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-7 col-md-6 mt-4 mt-md-0">
+                                                <div class="blog-content">
+                                                    <h4>10 Tips for a Business Strong Start </h4>
+                                                    <p>Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
+                                                    <h5 class="d-xl-inline-block d-lg-block d-inline-block mr-4">
+                                                        <i class="fa fa-tags"></i> Development, Marketing
+                                                    </h5>
+                                                    <a href="#" class="">
+                                                        <i class="fa fa-plus-square mr-1"></i> Read more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-5 pt-lg-0">
+                        <div class="row">
+                            <div class=".col-12">
+                                <div class="blog-head">
+                                    <h3 class="d-inline mr-3">TESTIMONIALS</h3>
+                                    <button type="button" class="btn" id="myBtn3">
+                                        <i class="fa fa-chevron-left"></i>
+                                    </button>
+                                    <button type="button" class="btn" id="myBtn4">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row mx-auto my-auto">
+                            <div class="carousel slide" data-ride="carousel" id="blogcarousel1">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-1">
+                                                        <div class="coma">
+                                                            <h2 class="big">&#8220;</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-11">
+                                                        <div class="blog-content">
+                                                            <p class="big1">Nullam faucibus, magna non fringilla ullamcorper, mi libero tempus arcu, fermentum lacinia sapien lacus eget dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt odio dolor</p>
+                                                            <hr>
+                                                            <div class="test-person d-flex flex-row">
+                                                                <div class="test-img d-inline-block pr-3">
+                                                                    <img src="img/test-img.png" class="img-fluid" alt="Person">
+                                                                </div>
+                                                                <div class="test-text d-inline-block">
+                                                                    <h2>Michael Green</h2>
+                                                                    <h3>Product Manager</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-1">
+                                                        <div class="coma">
+                                                            <h2 class="big">&#8220;</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-11">
+                                                        <div class="blog-content">
+                                                            <p class="big1">Nullam faucibus, magna non fringilla ullamcorper, mi libero tempus arcu, fermentum lacinia sapien lacus eget dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt odio dolor</p>
+                                                            <hr>
+                                                            <div class="test-person d-flex flex-row">
+                                                                <div class="test-img d-inline-block pr-3">
+                                                                    <img src="img/test-img.png" class="img-fluid" alt="Person">
+                                                                </div>
+                                                                <div class="test-text d-inline-block">
+                                                                    <h2>Michael Green</h2>
+                                                                    <h3>Product Manager</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        blog end-->
+
+        <!--        client start-->
+        <section id="partner" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md col-4 text-center align-self-center">
+                        <img src="img/client-img1.png" class="img-fluid" alt="Partner One">
+                    </div>
+                    <div class="col-md col-4 text-center align-self-center">
+                        <img src="img/client-img2.png" class="img-fluid" alt="Partner Two">
+                    </div>
+                    <div class="col-md col-4 text-center align-self-center">
+                        <img src="img/client-img3.png" class="img-fluid" alt="Partner Three">
+                    </div>
+                    <div class="col-md col-4 mt-5 mt-md-0 text-center align-self-center">
+                        <img src="img/client-img4.png" class="img-fluid" alt="Partner Four">
+                    </div>
+                    <div class="col-md col-4 mt-5 mt-md-0 text-center align-self-center">
+                        <img src="img/client-img5.png" class="img-fluid" alt="Partner Five">
+                    </div>
+                    <div class="col-md col-4 mt-5 mt-md-0 text-center align-self-center">
+                        <img src="img/client-img6.png" class="img-fluid" alt="Partner Six">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        client end-->
+
+        <!--        contact start-->
+        <section id="contact" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 order-4 order-lg-0 mt-4 mt-lg-0">
+                        <div class="cont-1st">
+                            <img src="img/contact-logo.png" class="img-fluid" alt="Contact Logo">
+                            <p>Bemax is a clean PSD theme suitable for corporate, You can customize it very easy to fit your needs, semper suscipit metus accumsan at. Nam luctus ac tortor eu</p>
+                            <div class="d-flex flex-row">
+                                <a href="#">
+                                    <div class="con-icon mr-2">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="con-icon mr-2">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="con-icon mr-2">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="con-icon mr-2">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-2 col-md-6 order-2 order-lg-0 mt-4 mt-md-0">
+                        <div class="cont-2nd">
+                            <h3>FEATURES</h3>
+                            <ul class="">
+                                <a href="#">
+                                    <li class=""><span class="p-1">&#9632;</span> About Us</li>
+                                </a>
+                                <a href="#">
+                                    <li class=""><span class="p-1">&#9632;</span> Our Story</li>
+                                </a>
+                                <a href="#">
+                                    <li class=""><span class="p-1">&#9632;</span> Term &#38; Conditions</li>
+                                </a>
+                                <a href="#">
+                                    <li class=""><span class="p-1">&#9632;</span> Privacy Policy</li>
+                                </a>
+                                <a href="#">
+                                    <li class=""><span class="p-1">&#9632;</span> Sites Map</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 order-3 order-lg-0 mt-4 mt-lg-0">
+                        <div class="cont-3rd">
+                            <h3>CONTACT US</h3>
+                            <p>Address: 379 5th Ave  New York, NYC 10018, United States</p>
+                            <p>Phone: +(112) 345 6999</p>
+                            <p>Fax: +(112) 345 8999</p>
+                            <p>Email: contact@bemax.com</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 order-1 order-lg-0">
+                        <div class="cont-4th">
+                            <h3>NEWSLETTER</h3>
+                            <p>Subscribe to Newsletters and Stay informed about our news and events</p>
+                            <form action="#" class="form-inline">
+                                <div class="form-group mt-3 form-inline">
+                                    <input type="text" id="subs" class="form-control" placeholder="Your Email">
+                                    <a href="#" class="btn btn-primary">Subscribe</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        contact end-->
+
+        <!--        footer start-->
+        <footer>
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <hr>
+                        <p>Copyright &copy; 2017 Designed by AuThemes. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--        footer end-->
+
+        <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $('.nav-link').click(function(e){
+                let divCoords = $(e.target.hash).offset();
+                let height = $('nav').height();
+                e.preventDefault();
+                window.scrollTo({
+                    left: divCoords.left, 
+                    top: divCoords.top - (height + 18),
+                    behavior: 'smooth'
+                });
+            }); 
+
+            function search(string){
+                window.find(string).css("background","#FF0");
+            }
+
+            $(document).ready(function(){
+                $(".fa-search").click(function(){
+                    $(".cus-btn").toggleClass("active");
+                    $("input[type='text']").toggleClass("active");
+                });
+            });
+
+
+
+            $('#projectcarousel').carousel({
+                interval: 10000
+            })
+
+            $('.carousel1 .carousel-item1').each(function(){
+                var minPerSlide = 4;
+                var next = $(this).next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+                next.children(':first-child').clone().appendTo($(this));
+
+                for (var i=0;i<minPerSlide;i++) {
+                    next=next.next();
+                    if (!next.length) {
+                        next = $(this).siblings(':first');
+                    }
+
+                    next.children(':first-child').clone().appendTo($(this));
+                }
+            });
+
+
+            var video = document.getElementById('video');
+            video.addEventListener('click',function(){
+                video.play();
+            },false);
+
+
+            $(document).ready(function(){              
+                // Go to the previous item
+                $("#myBtn").click(function(){
+                    $("#blogcarousel").carousel("prev");
+                });
+
+                // Go to the next item
+                $("#myBtn2").click(function(){
+                    $("#blogcarousel").carousel("next");
+                });
+
+                $("#myBtn3").click(function(){
+                    $("#blogcarousel1").carousel("prev");
+                });
+
+                // Go to the next item
+                $("#myBtn4").click(function(){
+                    $("#blogcarousel1").carousel("next");
+                });
+            });
+        </script>
+
+    </body>
+</html>

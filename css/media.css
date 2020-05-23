@@ -1,0 +1,396 @@
+
+@media (max-width: 420px)
+{
+    #project .carousel img
+    {
+        width: 100%;
+    }
+    #project .carousel .project-overlay
+    {
+        width: calc(100% - 30px);
+    }
+    #project .carousel .project-overlay h4
+    {
+        left: 15%;
+    }
+    #project .carousel .project-overlay h5
+    {
+        left: 28%;
+    }
+    #project .pro-next-box
+    {
+        left: 5px;
+    }
+    #project
+    {
+        padding: 50px 0;
+    }
+}
+@media (min-width: 421px) and (max-width: 575px)
+{
+    nav .input-group input[type=text]
+    {
+        border-left: 0;
+    }
+    nav .input-group input[type=text].active
+    {
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    #home .carousel-item
+    {
+        min-height: 430px;
+        margin-bottom: 80px;
+    }
+
+
+
+    #success .card .suc-overlay
+    {
+        height: 25%;
+    }
+    #success .card .suc-overlay h3
+    {
+        font-size: 13px;
+    }
+    #success .card .suc-overlay .fas
+    {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    #success .card .suc-overlay  .heading-suc
+    {
+        top: 35%;
+    }
+    #success .card .suc-overlay p
+    {
+        font-size: 12px;
+    }
+    #success .card .suc-overlay a
+    {
+        font-size: 11px;
+    }
+    #success .card .suc-overlay:hover .heading-suc
+    {
+        top: 10%;
+    }
+    #success .card .suc-overlay:hover p
+    {
+        top: 30%;
+    }
+    #success .card .suc-overlay:hover a
+    {
+        top: 80%;
+    }
+    #project .carousel img
+    {
+        width: 100%;
+    }
+    #project .carousel .project-overlay
+    {
+        width: calc(100% - 30px);
+    }
+    #project .carousel .project-overlay h4
+    {
+        left: 30%;
+    }
+    #project .carousel .project-overlay h5
+    {
+        left: 38%;
+    }
+    #project .pro-next-box
+    {
+        left: 5px;
+    }
+    #project
+    {
+        padding: 50px 0;
+    }
+}
+/* start small than sm */
+@media (max-width: 575px)
+{
+    #blog .blog-img .blog-overlay p
+    {
+        font-size: 17px;
+    }
+    #contact .cont-4th .form-control
+    {
+        width: 67%;
+    }
+}
+/* end small than sm */
+
+/* start sm */
+@media (min-width: 576px) and (max-width: 767px)
+{
+    nav .input-group input[type=text]
+    {
+        border-left: 0;
+    }
+    nav .input-group input[type=text].active
+    {
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+
+    #success .card .suc-overlay
+    {
+        height: 25%;
+    }
+    #success .card .suc-overlay h3
+    {
+        font-size: 20px;
+    }
+    #success .card .suc-overlay .fas
+    {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    #success .card .suc-overlay  .heading-suc
+    {
+        top: 35%;
+    }
+    #success .card .suc-overlay p
+    {
+        font-size: 18px;
+    }
+    #success .card .suc-overlay a
+    {
+        font-size: 14px;
+    }
+    #success .card .suc-overlay:hover .heading-suc
+    {
+        top: 18%;
+    }
+    #success .card .suc-overlay:hover p
+    {
+        top: 40%;
+    }
+    #success .card .suc-overlay:hover a
+    {
+        top: 80%;
+    }
+    #project .carousel img
+    {
+        width: 100%;
+    }
+    #project .carousel .project-overlay
+    {
+        width: calc(100% - 30px);
+    }
+    #project .carousel .project-overlay h4
+    {
+        left: 30%;
+    }
+    #project .carousel .project-overlay h5
+    {
+        left: 38%;
+    }
+    #project .pro-next-box
+    {
+        left: 5px;
+    }
+    #project
+    {
+        padding: 60px 0;
+    }
+
+    #blog .blog-img .blog-overlay p
+    {
+        font-size: 20px;
+    }
+}
+/* end sm */
+
+/* start md */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    nav .input-group input[type=text]
+    {
+        border-left: 0;
+    }
+    nav .input-group input[type=text].active
+    {
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+
+    #success .card .suc-overlay
+    {
+        height: 25%;
+    }
+    #success .card .suc-overlay h3
+    {
+        font-size: 12px;
+    }
+    #success .card .suc-overlay .fas
+    {
+        font-size: 17px;
+        margin-right: 4px;
+    }
+    #success .card .suc-overlay  .heading-suc
+    {
+        top: 14%;
+    }
+    #success .card .suc-overlay p
+    {
+        font-size: 10px;
+    }
+    #success .card .suc-overlay a
+    {
+        font-size: 9px;
+    }
+    #success .card .suc-overlay:hover .heading-suc
+    {
+        top: 8%;
+    }
+    #success .card .suc-overlay:hover p
+    {
+        top: 24%;
+    }
+    #success .card .suc-overlay:hover a
+    {
+        top: 85%;
+    }
+    #project .carousel .project-overlay h4
+    {
+        left: 0%;
+    }
+    #project .carousel .project-overlay h5
+    {
+        left: 17%;
+    }
+    #project
+    {
+        padding: 60px 0;
+    }
+
+
+    #blog .blog-content h4
+    {
+        font-size: 20px;
+    }
+    #blog .blog-content p
+    {
+        font-size: 17px;
+        padding: 20px 0 30px;
+    }
+    #blog .blog-content h5,#blog .blog-content a
+    {
+        font-size: 15px;
+    }
+    #blog .coma .big
+    {
+        line-height: 1.5;
+    }
+}
+/* end md */
+
+/* start lg */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #success .card .suc-overlay
+    {
+        height: 23%;
+    }
+    #success .card .suc-overlay h3
+    {
+        font-size: 15px;
+    }
+    #success .card .suc-overlay .fas
+    {
+        font-size: 23px;
+    }
+    #success .card .suc-overlay p
+    {
+        font-size: 13px;
+    }
+    #success .card .suc-overlay a
+    {
+        font-size: 11px;
+    }
+    #success .card .suc-overlay:hover .heading-suc
+    {
+        top: 8%;
+    }
+    #success .card .suc-overlay:hover p
+    {
+        top: 23%;
+    }
+    #success .card .suc-overlay:hover a
+    {
+        top: 80%;
+    }
+    #project .carousel .project-overlay h4
+    {
+        left: 9%;
+    }
+    #project .carousel .project-overlay h5
+    {
+        left: 25%;
+    }
+
+    #blog .blog-content h4
+    {
+        font-size: 13px;
+    }
+    #blog .blog-content p
+    {
+        font-size: 12px;
+    }
+    #blog .blog-content h5,#blog .blog-content a
+    {
+        font-size: 12px;
+    }
+}
+/* end lg */
+
+/* start xl */
+@media (min-width: 1300px)
+{
+
+}
+/* end xl */
+/* start xl */
+@media (min-width: 1600px)
+{
+
+}
+/* end xl */
+/*media query end*/
+
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+    transform: translateX(0);
+}
